@@ -7,7 +7,7 @@ function GridPage() {
     <div>
       <Head>
         <title>My styled page</title>
-        <link href="/static/styles.css" rel="stylesheet" />
+        <link href="/static/grid.css" rel="stylesheet" />
       </Head>
       <h1 className="test_class">
         CSS GRID WOOO
