@@ -4,11 +4,15 @@ body {
 
 .grid {
   display: grid;
-  grid-template-columns: 100px 500px 100px 100px;
+  grid-template-columns: 1fr 3fr;
   grid-template-rows: 200px 100px;
   grid-gap: 10px;
   background-color: #fff;
   color: #444;
+}
+
+.header {
+  grid-column: 1/3;
 }
 
 .grid div {

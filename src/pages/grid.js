@@ -9,7 +9,7 @@ function GridPage() {
         <title>My styled page</title>
         <link href="/static/grid.css" rel="stylesheet" />
       </Head>
-      <div>Box 1</div>
+      <div className="header">Box 1</div>
       <div>Box 2</div>
       <div>Box 3</div>
       <div>Box 4</div>
