@@ -1,3 +1,16 @@
-.test_class {
-  color: red;
+body {
+  margin: 40px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 100px 500px 100px 100px;
+  grid-template-rows: 200px 100px;
+  grid-gap: 10px;
+  background-color: #fff;
+  color: #444;
+}
+
+.grid div {
+  background-color: red;
 }
